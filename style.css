@@ -70,8 +70,8 @@ body{
 }
 
 .content_area{
-	background:;
-	color: ;
+	background:lightgreen;
+	color: black;
 	overflow: hidden;
 }
 
@@ -140,10 +140,10 @@ body{
 
 
 
-/* Responsive Management for Smartphones */
+/* Responsive Management */
 
 
-@media all and (max-width:1000px){
+@media all and (max-width:850px){
 	
 	.header_area{
 		background: lightgray;
@@ -161,6 +161,11 @@ body{
 		text-align: center;
 		
 	}
+
+
+.menu_area ul li a {
+    margin: 16px 10px;
+}
 	.left_content{
 		width: 100%;
 	}
@@ -191,9 +196,66 @@ body{
 
 
 
+@media all and (max-width:400px){
+	
+	.header_area{
+		background: lightblue;
+	}
+	
+	.logo{
+		width: 100%;
+		text-align: center;
+		font-size: 50px;
 
+	}
 
+	.logo img{
+		height: 50%;
+		width: 50%;
+		font-size: 5px;
+	}
+	.menu_area{
+		width: 100%;
+	}
+	
+	.menu_area ul{
+		text-align: center;	
+	}
 
+	.menu_area ul li {
+		width: 30%;
+	}
 
+	.menu_area ul li a {
+		margin: 14px 6px;
+		font-size: 15px;
+	}
+	.left_content{
+		width: 100%;
+	}
+	.left_content img{
+		width: 100%;
+		height: 100%;
+	}
+	.right_content{
+		width: 100%;
+	}
+	
+	
+	.footer1{
+		width: 100%;
+	}
+	.footer2{
+		width: 100%;
+	}
+	.footer3{
+		width: 100%;
+	}
+	.footer4{
+		width: 100%;
+	}
+	
+	
+}
 
-
+/* Responsive code added */
